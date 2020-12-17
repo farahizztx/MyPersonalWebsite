@@ -1,0 +1,273 @@
+<html>
+<head>
+<title>EXPERIENCE</title>
+</head>
+<body background="image/background.jpg">
+<div class="topnav">
+<a href="gallery.html"><img src="image/gallery.png"></a>
+<a href="family.html"><img src="image/family.png"></a>
+<a href="education.html"><img src="image/education.png"></a>
+<a href="experience.html"><img src="image/experience.png"></a>
+<a href="Biodata.html"><img src="image/biodata.png"></a>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<body onLoad="goforit()" font-family="Arial">
+<script>
+
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="AM"
+if (hours>=12)
+dn="PM"
+if (hours>12){
+hours=hours-12
+}
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+//change font size here
+var cdate="<small><font color='000000' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+" "+hours+":"+minutes+":"+seconds+" "+dn
++"</b></font></small>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else if (document.getElementById)
+document.getElementById("clock").innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all&&!document.getElementById)
+getthedate()
+function goforit(){
+if (document.all||document.getElementById)
+setInterval("getthedate()",1000)
+}
+
+</script>
+<span id="clock"></span>
+</div>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+.topnav {
+  background-color: #EDC0F5 ;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+<div align="center">
+ <marquee behavior="alternate" bgcolor="#F57933" direction="left" height:="" 
+ loop="7" scrollamount="1" scrolldelay="2" width="100%">
+ <span style="font-size: 20px;color:#FFFFFF">
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></marquee>
+</div>
+&nbsp;&nbsp;<a href="index.html"><img src="image/home.png"></a>
+<br>
+<br>
+<br>
+<br>
+<div id="header">
+<h2 align="center"><font color="black" font size="6" font face="Times New Roman">MY EXPERIENCE</font></h2> 
+<style>
+td {
+  width: 25% ;
+}
+</style>
+<table border="1" align="center" width="70%" height="auto">
+</tr>
+<tr align="center">
+<td rowspan="2" colspan="2" bgcolor="#FFF280 "><font face="Arial"><b>WORKING</b></font></td>
+<td colspan="2" bgcolor="#F7F0AE"><li>Hanada Technology Sdn Bhd</li>As a part-timer doing some company invoices
+ and administrator works</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#F7F0AE"><li>Rio Grill Restaurant</li>Part-timer as a waitress</td>
+</tr>
+<tr align="center">
+<td rowspan="6" colspan="2" bgcolor="#FFAC80 "><font face="Arial"><b>UNIVERSITY</b></font></td>
+<td colspan="2" bgcolor="#F7D9AE">Club event:"JOM RONDA SRS" Peringkat Daerah Kuala Muda 2019 in collaborating with PPD Kuala Muda and Kawasan Rukun Tetangga Taman Lembah Bujang</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#F7D9AE">Prepare proposals for the club events/programmes</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#F7D9AE">Conducted events for UiTM students (e.g; Sambutan Malam Kemerdekaan, Gegar Merbok etc)</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#F7D9AE">Conducted club events with Lembah Bujang Community</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#F7D9AE">Club events collaborating with Kementerian Perpaduan Malaysian</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#F7D9AE">University Community Engagement (UCE) Malaysian Book of Records</td>
+</tr>
+<tr align="center">
+<td rowspan="5" colspan="2" bgcolor="#C1A3E7"><font face="Arial"><b>SCHOOL/OTHERS</b></font></td>
+<td colspan="2" bgcolor="#D7B7FF">As a facilitator for some school events (anugerah Gangsa Remaja KBS 2016)</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#D7B7FF">As a volunteer for 2017 Kuala Lumpur Sea Games</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#D7B7FF">Participated in Malaysian-Japanese Exchange Student (2017)</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#D7B7FF">Participated in Champion Programme (2016 - 2017)</td>
+</tr>
+<tr align="center">
+<td colspan="2" bgcolor="#D7B7FF">Went to Program Latihan Khidmat Negara (PLKN) for 2 months</td>
+</tr>
+</table>
+
+<br>
+    <style> 
+        } 
+        h1 { 
+            color: black; 
+        } 
+        img { 
+            float: left;  
+            margin: 4.5px;
+        } 
+        p { 
+            text-align: justify; 
+            font-size: 20px;
+            text-shadow: 1px 1px 2px #ACBAAF; 
+            
+    </style> 
+</head> 
+  
+<br>
+<br>
+<br>
+<br>
+
+<h1 align="center"><font face="Times New Roman"><b>MEMORIES</b></font></h1>
+<br>
+<table border="0" align="center" cellpadding="15%" width="80%">
+</tr>
+<tr align="center">
+<td><div class="square"> 
+        <div>  
+           <img src="image/srs.jpeg" border="2" vspace="5" hspace="5" width="53%">  
+        </div> 
+        <p><font size="4">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This was during the event of "JOM RONDA SRS" with PPD Kuala Muda and Kawasan Rukun Tetangga Taman Lembah
+         Bujang. In this event, me, Farah, Haziq and Awie have to act in front of the Taman Lembah Bujang community. All of us are the comittee of Sekretiat Rukun Negara (SRN) in UiTM Kedah 
+         which also had many events together with PPD Kuala Muda and Taman Lebah Bujang Community. At first, it was a bit awkward and shy for us, althought it is not our first time 
+         but it still make me nervous everytime we have to do it because people's eyes are focus on us. Thus sometimes, it kind of made me pressure if I do not do it well. And as expected, with 
+         the courage and support from them, we are able to perform it well. Besides that, since Sir Azam is the advisor in SRN so he is the one responsible to take care of us. The event went well and it ended around 1am.
+         We are so hungry at that time and keep on convincing Sir Azam to go eat after that. Then, Sir Azam finally bring us to Nasi Lemak Royal at 1am in the morning. I think it is my fisrt time trying it
+         and it is delicious! Then, we went back to the college. For me,it is also fun thus it is considered as one of the memories I can made thoughout the whole 2 years of my Diploma studies in
+         UiTM Kedah.</font></p> 
+    </div></td>
+<br>
+<td><div class="square"> 
+        <div>  
+           <img src="image/plkn.jpg" border="2" vspace="5" hspace="5" width="50%">  
+        </div> 
+        <p><font size="4">
+         &nbsp;&nbsp;This photo is one the greatest memories that i had.Went to PLKN is something I could not expected that it would be so much fun. Also, the reason is 
+         that many people have said that PLKN is something wasted and it is better to go for a part-time job rather than going PLKN after SPM. But for me, I 
+         personally enjoyed my time so much. There are so many things that I will not get a chance to do it if I not join the PLKN. In PLKN, we also have classes that
+         we need to attend every morning. In which, they will teach us about our future such as how do we excel in job interview, the communication
+         with others and some other life tips. Besides that as everybody knows, PLKN will teach us some of the tips on how to protect ourselves in danger. For example, 
+         martial art and taekwondo. As a woman, I think it is important because we cannot imagine when the danger comes. Apart from that, we also got to learn some
+         of the survival tips when in jungle where we have to cook in a military cooking equipment and cook using candles. And I guess it is once in a life time.
+         I think going to PLKN is very heplful to make ourselves become discipline. For example, we have to wake up at 4am every morning, go to classes, tidying up everything
+         after we use it and many more. Also, one of the things that I cannot forget was washing our clothes at 1am together while looking at the thousand stars in the sky! It is 
+         so beautiful thus release the tiredness throughout the day.</font></p> 
+    </div> </td>
+<tr align="center">
+<td colspan="2"><div class="square"> 
+        <div>  
+           <img src="image/myjpn.jpg" border="2" vspace="5" hspace="5" width="50%" align="center">  
+        </div> 
+          
+        <p><font size="4"> 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This photo was taken during our school's Malaysian-Japanese 
+         Exchange Student Programme (2017). This programme was held on 17th February 2017 where around 300 Japanese students from Ibaraki
+         Higashi High School. They went to our school in order to learn some of Malaysian Cultures such as
+         the traditional outfits, our food, traditional games, traditional dance and so forth. It was fun to meet them
+         as we can see that their excitement in learning about our cultures. Besides that, they also showed us some 
+         of their traditional dances. There, we get to learn some of basic languange from each other. For example, 'おやすみ (Oyasumi)'
+         which means 'good night'. Apart from that, I amazed that most of &nbsp;them said that Malaysia's weather is so good.
+         This because, it was too hot at that time and I remembered some of them even said "sweating is nice". I also made some friends 
+         such as Shaoki, Kita and some more that i have forgot (haha).Then, they need to leave where we have to say goodbye to each other. 
+         We also had a gift exchange to one another which I get a wooden fan from Kita and it was such a lovely gift. We also got a chance to
+         take photos with them as a memory and some of them even asked for our Instagram so that maybe we can still stay in contact with them.
+         Although it was short, I think it was so fun because they are kind and friendly. I hope I can see them again! 
+        </font></p>
+    </div> </td>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  height: 20;
+  font-family: "Courier New";
+  background-color: DarkSalmon;
+  color: black;
+}
+</style>
+
+<footer>
+  <i><font size="3.2">This website is developed for Introduction to Web Content Management & Design (IMD 311) &nbsp;&nbsp;
+  Developed by: Farah Izzati Binti Misarifin</i></font>
+</footer>
+
+<style>
+body {
+  background-size: 100%;
+}
+</style>
+
+</body>
+</html>
