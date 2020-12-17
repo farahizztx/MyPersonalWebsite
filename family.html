@@ -1,0 +1,393 @@
+<html>
+<head>
+<title>FAMILY</title>
+</head>
+<body background="image/background.jpg">
+<div class="topnav">
+<a href="gallery.html"><img src="image/gallery.png"></a>
+<a href="family.html"><img src="image/family.png"></a>
+<a href="education.html"><img src="image/education.png"></a>
+<a href="experience.html"><img src="image/experience.png"></a>
+<a href="biodata.html"><img src="image/biodata.png"></a>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<body onLoad="goforit()" font-family="Arial">
+<script>
+
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="AM"
+if (hours>=12)
+dn="PM"
+if (hours>12){
+hours=hours-12
+}
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+//change font size here
+var cdate="<small><font color='000000' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+" "+hours+":"+minutes+":"+seconds+" "+dn
++"</b></font></small>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else if (document.getElementById)
+document.getElementById("clock").innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all&&!document.getElementById)
+getthedate()
+function goforit(){
+if (document.all||document.getElementById)
+setInterval("getthedate()",1000)
+}
+
+</script>
+<span id="clock"></span>
+</div>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+.topnav {
+  background-color: #EDC0F5 ;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
+<div align="center">
+ <marquee behavior="alternate" bgcolor="#F57933" direction="left" height:="" 
+ loop="7" scrollamount="1" scrolldelay="2" width="100%">
+ <span style="font-size: 20px;color:#FFFFFF">
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></marquee>
+</div>
+
+<style>
+img { 
+        margin: 6.5px;
+     } 
+</style>
+
+<a href="index.html"><img src="image/home.png"></a>
+
+<style>
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<br>
+<br>
+<br>
+
+<style>
+pre {
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 1px 1px 2px #ACBAAF;
+  text-align:center;
+}
+</style>
+
+<h2 align="center"><font size="6" font face="Times New Roman">FAMILY</font></h2>
+  <pre><font size="4.8"><b>&nbsp;&nbsp;Family means having someone to love you unconditionally in spite of you and your shortcomings. 
+  Family is loving and supporting one another even when it's not easy to do so. We have seven 
+  family members which are my parents and my five siblings. We live in Puchong, Selangor. 
+  My parents have been married for 24 years on 1 June 1996.</font><b/></pre>
+<br>
+<table border="1" align="center" width="30%">
+</tr>
+<tr align="center">
+<td bgcolor="#34495E"><b><font color="white" font size="3">
+<br>
+FAMILY MEMBERS</font></b>
+      <br>
+      <br>
+      <a href="#Father">Father</a>
+      <br>
+      <a href="#Mother">Mother</a>
+      <br>
+      <a href="#Older Sister">Older Sister</a>
+      <br>
+      <a href="#Younger Sister">Younger Sister</a>
+      <br>
+      <a href="#Younger Brother">Younger Brother</a>
+      <br>
+      <a href="#Little Brother">Little Brother</a></font></b>
+      <br>
+      <br>
+</td>
+</table>
+<br>
+<br>
+
+  <style> 
+        } 
+        h1 { 
+            color: black; 
+        } 
+        img { 
+            float: left;  
+          
+        } 
+         p { 
+            text-align: justify; 
+        }
+    </style> 
+
+<br>
+<br>
+<br>
+<table border="1" align="center" cellpadding="5%" width="70%">
+</tr>
+<tr align="center" bgcolor="#73A7AC">
+<td><div class="square"> 
+        <h3><a id="Father"></a>FATHER
+        <br>
+          <b align="center"><font size="3">MISARIFIN BIN AMIN</font></b></h3>
+        <div>  
+           <img src="image/ayah.jpg" border="2" vspace="5" hspace="5" width="26%" height="auto">  
+        </div> 
+        <p><font face="Trebuchet MS">
+         My dad was born on 12th March 1970 at Kampung Pulau Meranti, Puchong, Selangor. He is currently 50 years old this year. My father got married when he was 26. 
+         His parents are from Muar, Johor and moved to Selangor because of work. He is the youngest out of 6 siblings. He has 2 brothers and 3 sisters and they are mostly 
+         stay in Puchong as well and one of them stays in Segamat, Johor. My dad went to Sekolah Kebangsaan Pulau Meranti, Sekolah Menengah Batu 14, Sekolah Menengah La Salle and did his
+         Sijil Tinggi Pelajaran Malaysia (STPM) at Sekolah Menengah Seri Mahkota, Kuantan, Pahang. My father owns a business in which it is related to a Mechanical Engineering
+         Services. He had various type of works before he started the business. He once worked as a reporter for one of the newspaper agency and also worked as a Logistic Executive at Artwright Malaysia. 
+         He started his business in 2002 and it went well where my dad bought a car and house for us (which is our current house now). My dad loves to play badminton and i think it is his favourite sport. 
+         He will go play badminton with his friends on every saturday. He is a hard working dad which never fails to feed us and provide everything for us.
+         </font></p> 
+    <br>
+    </div></td>
+
+<tr align="center" bgcolor="#C7CD89">
+<td><div class="square"> 
+        <h3><a id="Mother"></a>Mother
+        <br>
+          <b align="center"><font size="3">IDAROYANI BINTI ISMAIL</font></b></h3>
+        <div>  
+           <img src="image/mama.jpg" border="2" vspace="5" hspace="5" width="25%" height="auto">  
+        </div> 
+        <br>
+        <br>
+        <br>
+        <p><font face="Trebuchet MS">
+         My mom was born on 5th March 1974 at Kampung Sungai Penchala, Kuala Lumpur. She is currently 46 years old this year. My mom got married when she was 22. 
+         They met at work where at that time they worked in the same office. My mom relatives are mostly in Kuala Lumpur and there are also some of them in Singapore.
+         Her parents were both raised in Kampung Sungai Penchala as well. My mom is the oldest out of her 4 siblings. She has one sister and 2 brothers. She went to Sekolah Kebangsaan Sungai Pechala and Sekolah
+         Menengah Taman Tun Dr. Ismail, Kuala Lumpur. She is currently a full time housewife where she stopped working after my younger sister was born. My mom is a good cooker.
+         This because, she is very good at almost everything (ofcourse, she's my mom!). Her Nasi Tomato Ayam Masak Merah is just everything. It is one of my favouries! Besides that, my mom also very good at baking.
+         Her chocolate cake never fails us. My mom even take order if requested. Also, lately she is into currypuff. In which, she takes order from people and sell it. Sometimes, she recieved order for around 200pcs of currypuffs a day.
+         This has proven that her currypuff never disappoint people.
+         </font></p> 
+    </div></td>
+
+<tr align="center" bgcolor="#73A7AC">
+<td><div class="square"> 
+        <h3><a id="Older Sister"></a>Older Sister
+        <br>
+          <b align="center"><font size="3">FARHANA IZZANI BINTI MISARIFIN</font></b></h3>
+        <div>  
+           <img src="image/farhana.jpg" border="2" vspace="5" hspace="5" width="25%" height="auto">  
+        </div> 
+        <p><font face="Trebuchet MS">
+         My sister was born on 8th April 1997 at Hospital Universiti, Kuala Lumpur. She is currently 23 years old this year. She is the oldest
+         in the siblings. She went to Sekolah Kebangsaan Taman Putra Perdana and took her Sijil Pelajaran Malaysia (SPM) at Sekolah Menengah Kebangsaan Putra Perdana.
+         She once took a taekwondo lesson during her primary school and recieved second grade brown. But she stopped halfway because of Ujian Penilaian Sekolah Rendah (UPSR) at that time.
+         Same as me, she also went to Program Latihan Khidmat Negara (PLKN) after SPM at Kem Pelangi Hill Resort, Kuala Kubu Bharu, Selangor. Since, we are only 3 years 
+         apart, we almost share everything together such as scarves, clothes and so forth. And, I can say that she is someone that I can rely on. We both love Kdramas so much and I will be the one that recommend everything to her.
+         Besides that, we also love Korean variety show 'Running Man' where we will watch it together whenever the new episode came out. She is also into cooking recently and her Butter Chicken is supprisingly
+         delicious (lol). During the Movement Control Order (MCO) we tried to do the viral coffee which is Dalgona Coffee but it failed. It was one of the funniest things happen this year (HAHAHA).
+         So, currently she is in her last semester for Degree in Electrical Engineering  at UiTM Shah Alam. She did her Diploma at UiTM Dungun, Terengganu in 2015 - 2018. She once got GPA of 3.96 in her 
+         degree semester thus that really made me want to do better as she is.
+         </font></p> 
+    </div></td>
+
+<tr align="center" bgcolor="#C7CD89">
+<td><div class="square"> 
+        <h3><a id="Younger Sister"></a>Younger Sister
+        <br>
+          <b align="center"><font size="3">FAZRENA IZWANI BINTI MISARIFIN</font></b></h3>
+        <div>  
+           <img src="image/fazrena.jpg" border="2" vspace="5" hspace="5" width="24%" height="auto">  
+        </div> 
+        <br>
+        <p><font face="Trebuchet MS">
+         My sister was born on 10th February 2006 at Hospital Putrajaya, Wilayah Persekutuan Putrajaya. She is currently 14 years old this year. She is the third
+         in the siblings. She went to Sekolah Kebangsaan Taman Putra Perdana and currently in her Form 2 at Sekolah Menengah Kebangsaan Putra Perdana.
+         She has a nickname where everyone in the family called her 'Ajin' which I have no idea where it is come from. Her hobby is watching Kdramas.
+         Since MCO, I think she has spent most of the days on laptop watching Kdramas. She also likes to cook. She always share recipes that she got from internet 
+         and ask us to help her. Well all I can say, do not trust internet too much. This because, most of the recipes we followed were failed (HAHAHA). Besides watching Kdramas,
+         she is also like to read novels. In which most of the novel in this house are hers. Also, she take care of her skin really well where she never missed her skincare routine
+         every day. Apart from that, she will be sitting for Pentaksiran Tingkatan 3 (PT3) next year. So, we hope that she can do it well.
+         </font></p> 
+    </div></td>
+
+
+<tr align="center" bgcolor="#73A7AC">
+<td><div class="square"> 
+        <h3><a id="Younger Brother"></a>Younger Brother
+        <br>
+          <b align="center"><font size="3">MUHAMMAD ALIFF IZ'AAN BINTI MISARIFIN</font></b></h3>
+        <div>  
+           <img src="image/aliff.jpeg" border="2" vspace="5" hspace="5" width="24%" height="auto">  
+        </div> 
+        <br>
+        <p><font face="Trebuchet MS">
+         My brother was born on 17th September 2010 at Hospital Putrajaya, Wilayah Persekutuan Putrajaya. He is 10 years old thsi year. He is the forth in the siblings. He is currently
+         currently in primary school at Sekolah Kebangsaan Taman Putra Perdana. His hobby is playing mobile games and even getting scold by my mom because he plays so much and didn't do his homework.
+         He likes beta fish so much. He has three Beta Fish. I remember he asked for Beta Fish on his birthday. Besides Beta Fish, he also owns a Syrian hamster. But I am the one who clean it up.
+         Aliff is the only boy I know who does not know how to play football and I guess because our neighborhood do not have many friends around his age. So that is why he is always on his tablet playing games.
+         Also, he loves pizza so much. He could eat up to 6 slices just for himself. Besides that, Aliff also loves to draw and he is really good at it. He likes to draw anime, doodles and other cartoon characters.
+         I can say that Aliff is Aryan's bestfriend because Aryan will go to his brother whenever he cry.
+         </font></p> 
+    </div></td>
+
+
+<tr align="center" bgcolor="#C7CD89">
+<td><div class="square"> 
+        <h3><a id="Little Brother"></a>Little Brother
+        <br>
+          <b align="center"><font size="3">MUHAMMAD ARYAN IMAN BINTI MISARIFIN</font></b></h3>
+        <div>  
+           <img src="image/aryan.jpg" border="2" vspace="5" hspace="5" width="24%" height="auto">  
+        </div> 
+        <br>
+        <p><font face="Trebuchet MS">
+         Aryan was born on 30th September 2018 at Hospital Serdang, Selangor. He is just turned 2 this year. He is the youngest in the siblings. Aryan really have a big age gap with us. For example, Aryan and me are 18
+         years apart. Aryan loves fruits so much, he will get excited whenever my parents bring fruits home. He also play so much with his toys. He loves dinosaurs! He have many kind of Dinosaurs. On his 2nd birthday,
+         my sister bought him a big dinosaur and it does not last a day because Aryan accidently broke its neck where he dropped it on the floor. Aryan is so cute, I love to hear his 'alien language' whenever he talk to us.
+         He is in a learning process where we can see how he catch some words while watching his Youtube videos. We encourage him to watch Youtube videos because it is one of the learning process. However, we do limit the 
+         time since it is not good for his eyes if he watch it too much. Aryan also is a brave boy. He never get scared to touch anything he sees for the first time where usually he get excited instead.
+         </font></p> 
+    </div></td>
+</table>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<style>
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #FF3600; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+</style>
+
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<br>
+<br>
+<br>
+<br>
+
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  height: 20;
+  font-family: "Courier New";
+  background-color: DarkSalmon;
+  color: black;
+}
+</style>
+
+<footer>
+  <i><font size="3.2">This website is developed for Introduction to Web Content Management & Design (IMD 311) &nbsp;&nbsp;
+  Developed by: Farah Izzati Binti Misarifin</i></font>
+</footer>
+
+</body>
+</html>
