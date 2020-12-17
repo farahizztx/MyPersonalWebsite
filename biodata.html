@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>BIODATA</title>
+</head>
+<body background="image/background.jpg">
+<div class="topnav">
+<a href="gallery.html"><img src="image/gallery.png"></a>
+<a href="family.html"><img src="image/family.png"></a>
+<a href="education.html"><img src="image/education.png"></a>
+<a href="experience.html"><img src="image/experience.png"></a>
+<a href="biodata.html"><img src="image/biodata.png"></a>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<body onLoad="goforit()" font-family="Arial">
+<script>
+
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="AM"
+if (hours>=12)
+dn="PM"
+if (hours>12){
+hours=hours-12
+}
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+//change font size here
+var cdate="<small><font color='000000' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+" "+hours+":"+minutes+":"+seconds+" "+dn
++"</b></font></small>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else if (document.getElementById)
+document.getElementById("clock").innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all&&!document.getElementById)
+getthedate()
+function goforit(){
+if (document.all||document.getElementById)
+setInterval("getthedate()",1000)
+}
+
+</script>
+<span id="clock"></span>
+</div>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+} 
+
+.topnav {
+  background-color: #EDC0F5 ;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+<div align="center">
+ <marquee behavior="alternate" bgcolor="#F57933" direction="left"  
+ loop="7" scrollamount="1" scrolldelay="2" width="100%">
+ <span style="font-size: 20px;color:#FFFFFF">
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Stay at Home,Stay Safe! Always wash your hands & maintain hygiene! Maintain 1 meter gap between each other.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></marquee>
+</div>
+<br>
+&nbsp;&nbsp;<a href="index.html"><img src="image/home.png"></a>
+
+<style>
+body {
+  background-size: 100%;
+}
+</style>
+
+<br>
+<h2 align="center"><font size="6" font color="black" font face="Times New Roman">MY BIODATA</font></h2> 
+<br>
+<img src="image/me.jpg" alt="Me" class="center" border="2" vspace="5" hspace="5">
+
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}  
+</style>
+<br>
+
+<style>
+
+pre {
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 1px 1px 2px #ACBAAF;
+  text-align:center;
+}
+</style>
+
+   <pre><i><font color="#232A29" font size="5" font face="Arial"><b>
+    Hi, my name is Farah Izzati Binti Misarifin. 
+   I am 20 years old. I was born on 10th November 2000 at Hospital Selayang, Selangor. 
+   I live in Taman Putra Perdana, Puchong, Selangor. I went to Sekolah Kebangsaan Taman 
+   Putra Perdana and took my Sijil Pelajaran Malaysia (SPM) in 2017 at Sekolah Menengah 
+   Kebangsaan Taman Putra Perdana. Currently, I am doing a Diploma in Information Management 
+        at UiTM Kedah and will be graduated in 2021.
+               
+             After SPM, I went to Program Latihan Khidmat Negara (PLKN) for two months. It was so fun! 
+           I enjoyed my time so much there with all of my friends and it is one of the best moments in 
+         my life. I went to Kem PLKN Princess Haliza, Sepang. There, I met new friends from different cities. 
+       They are so kind and friendly. Being in a camp for two months is so precious where we enjoyed 
+           every moments through thick and thin together. And for me, it is really lifeworth.
+
+                 My hobbies are watching Kdramas and playing mobile games with my friends. I enjoy 
+               playing games with them because it is fun thus, can release the stress throughout the day. 
+             Besides that, sometimes i love to help my mom baking cakes. My ambition, since my course is 
+            related to information management I think I've fallen in love with records management so currently 
+           i have been thinking to pursue my studies in Records Management to become a Records Officer. 
+              Somehow, learning about web development is also interesting!
+           </font></i></b></pre>
+<br>
+<style>
+table {
+  width: 70% ;
+}
+td {
+  width: 25% ;
+}
+</style>
+
+<table border="1" align="center">
+</tr>
+<tr align="center">
+<td rowspan="2" colspan="2" bgcolor="#D6A23B"><font face="Arial"><b>Top 5 of my favourite Kdramas:</b></font>
+<ol>
+<li>She Was Pretty</li>
+<li>Itaewon Class</li>
+<li>Fight For My Way</li>
+<li>It's Okay To Not Be Okay</li>
+<li>School: 2015</li></td>
+</ol>
+<tr align="center">
+<br>
+<td rowspan="2" colspan="2" bgcolor="#F7F0AE"><font face="Arial"><b>My favourite songs:</b></font>
+<ul>
+<li>At My Worst - Pink Sweat$ </li>
+<div style="margin: 0 auto; display: table;">
+  <audio controls>
+  <source src="Audio/atmyworst1.mp3" type="audio/mpeg">
+  </audio>
+</div>
+<li>Forever - Lewis Capaldi</li>
+<div style="margin: 0 auto; display: table;">
+  <audio controls>
+  <source src="Audio/forever.mp3" type="audio/mpeg">
+  </audio>
+</div>
+<li>Life Is Worth Living - Justin Bieber </li>
+<div style="margin: 0 auto; display: table;">
+  <audio controls>
+  <source src="Audio/lifeisworthliving.mp3" type="audio/mpeg">
+  </audio>
+</div>
+</tr>
+</table>
+
+<br>
+<br>
+<h2 align="center"><font color="black" font size="4">My Social Media:</font></h2> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+<a href="https://www.instagram.com/farahizztx/?hl=en/" target="_blank"><img src="image/instagram1.png" width="auto" height="22%"</a>
+<a href="https://www.facebook.com/farah.izzati.336333/" target="_blank"><img src="image/facebook1.png" width="auto" height="22%"</a>
+</a>
+<br>
+<br>
+<br>
+<style>
+body {
+  background-size: 100%;
+}
+</style>
+
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  height: 20;
+  font-family: "Courier New";
+  background-color: DarkSalmon;
+  color: black;
+}
+</style>
+
+<footer>
+  <i><font size="3.2">This website is developed for Introduction to Web Content Management & Design (IMD 311) &nbsp;&nbsp;
+  Developed by: Farah Izzati Binti Misarifin</i></font>
+</footer>
+
+</body>
+</html>
